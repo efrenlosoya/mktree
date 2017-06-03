@@ -5,13 +5,13 @@ Why?
 
 I don't want to run separate commands to create nested directories and files such as:
 
-mkdir -p dir/subdir1
-touch dir/subdir1/index1.js
-touch dir/subdir1/index2.js
+    mkdir -p dir/subdir1
+    touch dir/subdir1/index1.js
+    touch dir/subdir1/index2.js
 
 I would rather do this:
 
-mktree dir/subdir1/{index1.js,index2.js}
+    mktree dir/subdir1/{index1.js,index2.js}
 
 Usage:
 
