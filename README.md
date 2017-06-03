@@ -1,0 +1,2 @@
+# mktree
+oh-my-zsh
